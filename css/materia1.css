@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}/* Common properties for similar elements */
+:root {
+    --light-gray: #f8f9fa;
+    --dark-gray: #555353;
+    --white: #fff;
+    --border-color1: #007bff;
+    --border-color: #dee2e6;
+    --dark-green: #28a745;
+}
+.ks-son, .main, .unit {
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+
+.ks-son {
+    margin: 20px;
+    
+    background-color: var(--light-gray);
+}
+.ks-son a{
+    color: var(--dark-gray);
+}
+.ks-son a, .unit a.arrow {
+    text-decoration: none;
+}
+
+.main {
+    border: 1px solid var(--border-color1);
+    margin: 20px;
+    background-color: #e9ecef;
+}
+
+.main p {
+    color: var(--dark-gray);
+    font-size: 18px;
+}
+
+.unit {
+    margin-top: 10px;
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.unit h3 {
+    margin: 0px;
+    color: var(--dark-gray);
+}
+
+.unit a {
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
+.unit a.arrow {
+    color: var(--dark-gray);
+    float: right;    
+}

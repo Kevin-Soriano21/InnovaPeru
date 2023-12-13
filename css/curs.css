@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.course {
+    background: #c2c2c2;
+    border: 1px solid #1C9AAE;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.course h3 {
+    margin-bottom: 10px;
+}
+
+.course p {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: #88bef7a1;
+    color: #201919;
+    text-decoration: none;
+    border-radius: 10px;
+}
